@@ -11,6 +11,15 @@ content-type: application/json
     "email": "mim@mim.com",
     "password": "Mimi@12345"
 }
+#### Signin
+
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+    "email": "mimi@mim.com",
+    "password": "Mimi@12345"
+}
 
 
 ### Update user
